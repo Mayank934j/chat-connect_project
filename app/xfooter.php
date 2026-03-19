@@ -1,0 +1,3 @@
+<div class="panel-footer" id="xftr" style=" <?PHP if(isset($isindex) && $isindex==1){ echo "background:rgba(255,255,255,.03); color:rgba(234,244,254,1);"; }else{echo "background:rgba(255,255,255,.03); color:#CCCCCC;";} ?> font-family:'Times New Roman', Times, serif; border-top:solid thin rgba(232,232,232,.3);"><span style="opacity:1;"> <?PHP if($isindex==1){ ?> <span id="_setgs" style="padding:5px;"><img src="<?PHP if(isset($istoday) && $istoday==1){ echo "../../";}elseif(isset($isQR) && $isQR==1){ echo "../";} ?>app/icons/set.png" draggable="false" style="border:none; cursor:pointer;" title="background settings"  /></span>&nbsp;<?PHP } ?>
+ <?PHP echo date("Y"); ?> <strong>&copy;</strong> ChatConnect. Developed by Mayank Kumar.</span>
+</div>            
